@@ -1,0 +1,41 @@
+/* App.css */
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; /* white background */
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  height: 120px;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+}
+
+.navRight a {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #0a0a0a; /* black text color */
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: bold; /* make the text bold */
+}
+
+.navRight a:hover {
+  background-color: #ffe6e6; /* light pink background on hover */
+}
+
+.navRight a.active {
+  background-color: #ff66b2; /* pink background when active */
+  color: white; /* white text when active */
+}
